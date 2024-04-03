@@ -160,7 +160,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("main_banner.png");
+    background-image: url("images/main_banner.png");
     background-size: cover;
     background-position: center;
     font-family: "Jost", sans-serif;
@@ -169,7 +169,7 @@ html {
 .glass {
   height: 100%;
   width: 100%;
-  background-image: url("main_banner.png");
+  background-image: url("images/main_banner.png");
   background-size: cover;
   background-position: center;
   clip-path: inset(10em);
