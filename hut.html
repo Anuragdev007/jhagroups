@@ -5,9 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fresh Hut</title>
     <link rel="stylesheet" href="aj.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <h1 style="text-align: center; font-size: 30px; margin: 1rem;">We Deliver</h1>
+    <header class="header">
+      <a href="#" class="logo">JHAGROUP</a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="fa-duotone fa-bars" id="menu-icon"></i>
+        <i class="fa-sharp fa-regular fa-x" id="close-icon"></i>
+        <!-- <i class="fa-solid fa-bars"  id="menu-icon"> </i>
+      
+        <i class="fa-solid fa-x" id="close-icon"></i> -->
+      </label>
+
+      <nav class="navbar">
+        <a href="home.html" class="nav-item" style="--i: 0">Home</a>
+        <a href="home.html" class="nav-item" style="--i: 1">About</a>
+
+        <a href="home.html" class="nav-item" style="--i: 3">Services</a>
+        <a href="home.html" class="nav-item" style="--i: 4">Contact</a>
+      </nav>
+    </header>
+    <h1 style="text-align: center; font-size: 30px; margin: 1rem; margin-top: 5rem;">We Deliver</h1>
     <main class="gallery gallery__content--flow">
       <figure>
         <img src="images/27.jpg" />
@@ -32,9 +63,70 @@
       </figure>
      
      
-   
+  
 
        
     </main>
+        <!------footer-------->
+        <div class="container-fluid footer_back mt-5">
+          <div class="row fot_row">
+            <div class="col-md-4 col-12">
+              <h3 class="text-center" style="color: #fff">Freshhut</h3>
+              <p class="text-center" style="color: #fff">
+                [ a unit of omnivore hospitality pvt ltd]
+              </p>
+            </div>
+            <div class="col-md-4 col-12">
+              <h3 class="text-center" style="color: #fff">Quick Links</h3>
+              <ul
+                style="
+                  color: #fff;
+                  display: flex;
+                  /* text-align: center; */
+                  cursor: pointer;
+                  justify-content: center;
+                "
+              >
+              <a href="home.html" class="nav-item" style="--i: 0">Home</a>
+              <a href="home.html" class="nav-item" style="--i: 1">About</a>
+      
+              <a href="home.html" class="nav-item" style="--i: 3">Services</a>
+              <a href="home.html" class="nav-item" style="--i: 4">Contact</a>
+            </nav>
+              </ul>
+            </div>
+            <div class="col-md-4 col-12">
+              <h3 class="text-center" style="color: #fff">Connect with us :</h3>
+              <div class="social-icons" style="justify-content: center">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div
+            class="copyright text-center"
+            style="padding-bottom: 1rem; color: #fff"
+          >
+            © Copyright 2024 JHAGROUP. All rights reserved.
+          </div>
+        </div>
+    <script src="home.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
